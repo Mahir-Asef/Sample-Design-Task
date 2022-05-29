@@ -1,0 +1,60 @@
+.feed{
+    background-image: url("https://media.istockphoto.com/photos/clear-night-sky-with-milky-way-and-huge-amount-of-stars-picture-id1287456867?b=1&k=20&m=1287456867&s=170667a&w=0&h=k_ldypib_aEeLD71QVzSS5kBV9QI-INb5k684DVEZ94=");
+    padding: 45px 0;
+    margin-top: 1px;
+}
+
+.feed h2{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+}
+.email{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+}
+.email img{
+    width: 80%;
+}
+.inpu{
+    margin-left: 5px;
+}
+.inpu input, textarea{
+    width: 450px;
+}
+.inpu input, textarea{
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: #141420;
+    padding:5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.inpu h1{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.inpu textarea{
+    height: 100px;
+}
+
+@media only screen and (max-width:688px) {
+    .email{
+        grid-template-columns: 1fr;
+    }
+    .inpu input, textarea{
+        width:300px
+    }
+    .inpu h1{
+        text-align: center;
+    }
+    .email img{
+        width: 100%;
+    }
+}
